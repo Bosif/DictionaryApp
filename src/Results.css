@@ -1,0 +1,16 @@
+h2 {
+    font-size: 58px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+hr {
+    height: 0px;
+    border: none;
+    border-top: 2px solid black;
+}
+
+p.phonetic {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}

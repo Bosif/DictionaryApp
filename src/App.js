@@ -11,6 +11,7 @@ export default function App() {
         alt="logo"></img>
       </header>
       <main>
+        <h1>Search Dictionary</h1>
         <Dictionary />
       </main>
       <footer className='App-footer'>
