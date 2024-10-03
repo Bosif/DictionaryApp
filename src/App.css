@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  max-width: 110px;
+  max-width: 160px;
   display: block;
   margin: 0 auto;
 }
@@ -16,3 +16,9 @@
 .App h1 {
   text-align: center;
 }
+
+body {
+  background-color: #E0DFFF;
+}
+
+

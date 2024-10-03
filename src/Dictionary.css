@@ -3,10 +3,29 @@ body {
 }
 
 form input{
-    min-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    color: #333;
+    padding: 10px 8px;
+    font-size: 16px;
 }
 
-form {
-    text-align: center;
 
+.Dictionary section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 20px 0;
+}
+
+.Dictionary .hint {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.Dictionary h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
 }

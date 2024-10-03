@@ -1,0 +1,13 @@
+.Synonyms {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.Synonyms li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.Synonyms .synonyms-header {
+    font-weight: bold;
+}

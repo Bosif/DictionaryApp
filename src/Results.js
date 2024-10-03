@@ -6,6 +6,7 @@ export default function Results(props) {
     if (props.results) {
     return (
         <div className="Results">
+            <section>
             <div className="container">
                 <div className="row">
                     <div className="col-6">
@@ -18,16 +19,16 @@ export default function Results(props) {
                         <h2>"image"</h2>
                     </div>
                 </div>
-                <hr />
+                <hr/>
             </div>
             {props.results.meanings.map(function(meaning, index) {
                 return (
-                    <div key={index}>
+                    <section key={index}>
                         <Meaning meaning={meaning} />
-                    </div>
+                    </section>
                 )
             })}
-         
+         </section>
         </div>
     );
 } else {

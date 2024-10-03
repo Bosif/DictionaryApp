@@ -11,8 +11,7 @@ export default function App() {
         alt="logo"></img>
       </header>
       <main>
-        <h1>Search Dictionary</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className='App-footer'>
         <small>Coded by Bo Rutjes</small>
